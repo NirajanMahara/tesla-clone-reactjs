@@ -32,6 +32,7 @@ const Container = styled.div`
     position: fixed;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 0 20px;
     top: 0;
     left: 0;
@@ -47,6 +48,10 @@ const Menu = styled.div`
         font-weight: 600;
         text-transform: uppercase;
         padding: 0 10px;
+    }
+
+    @media (max-width: 768px) {
+        display: none;
     }
 `
 
