@@ -48,6 +48,7 @@ const Wrap = styled.div`
     flex-direction: column;
     justify-content: space-between;     // vertical alignment
     align-items: center;                // horizontal alignment
+    scroll-snap-align: start;
 `
 
 const ItemText = styled.div`
